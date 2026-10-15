@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const root = require('root');
 
 module.exports = function (robot) {
   const scriptsPath = path.resolve(__dirname, 'src');
